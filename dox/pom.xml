@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.xmldocumentationforaemaacs</groupId>
+        <artifactId>aemaacs-dox-project</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>aemaacs-dox-project-dox-manager</artifactId>
+    <packaging>pom</packaging>
+    <name>XML Documentation for AEMaaCS - DoX Manager</name>
+
+    <properties>
+        <download-maven-plugin.version>1.6.1</download-maven-plugin.version>
+        <filevault-package-maven-plugin.version>1.0.4</filevault-package-maven-plugin.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>dox.installer</module>
+        <!--Uncomment the below line only if you want to override OSGI config for DoX-->
+<!--        <module>dox.config.override</module>-->
+        <!--Uncomment the below line only if you want to install the open-in-oxygen button for DoX -->
+<!--        <module>dox.openinoxygen.installer</module>-->
+    </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.googlecode.maven-download-plugin</groupId>
+                    <artifactId>download-maven-plugin</artifactId>
+                    <version>${download-maven-plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.jackrabbit</groupId>
+                    <artifactId>filevault-package-maven-plugin</artifactId>
+                    <version>${filevault-package-maven-plugin.version}</version>
+                    <extensions>true</extensions>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.jackrabbit</groupId>
+                    <artifactId>filevault-package-maven-plugin</artifactId>
+                    <version>${filevault-package-maven-plugin.version}</version>
+                    <extensions>true</extensions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

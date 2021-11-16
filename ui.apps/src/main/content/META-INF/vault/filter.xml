@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/xmldocumentationforaemaacs/clientlibs"/>
+    <filter root="/apps/xmldocumentationforaemaacs/components"/>
+    <filter root="/apps/xmldocumentationforaemaacs/i18n"/>
+</workspaceFilter>
