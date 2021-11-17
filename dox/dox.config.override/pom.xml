@@ -5,13 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.aem_dox_stage</groupId>
-		<artifactId>aem-aem_dox_stage-project-dox-manager</artifactId>
+		<groupId>com.xmldocumentationforaemaacs</groupId>
+		<artifactId>aemaacs-dox-project-dox-manager</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>aem-aem_dox_stage-project-dox-config-override</artifactId>
+	<artifactId>aemaacs-dox-project-dox-config-override</artifactId>
     <packaging>content-package</packaging>
 	<name>XML Documentation for AEMaaCS - DoX Configurator</name>
 
