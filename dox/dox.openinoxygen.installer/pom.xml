@@ -15,7 +15,7 @@
     <packaging>content-package</packaging>
     <name>XML Documentation for AEMaaCS - DoX Open In Oxygen Button Installer</name>
     <properties>
-        <url.for.repository.files>https://skyline.starlingbeta.com/repository/maven-public</url.for.repository.files>
+        <url.for.repository.files>https://repo.xmldocumentation.com/repository/fmdita-releases</url.for.repository.files>
         <openinoxygenbutton.version>2.1</openinoxygenbutton.version>
         <target.path.for.install>${project.build.outputDirectory}/jcr_root/apps/editinoxygen/install</target.path.for.install>
         <aem.repository.user></aem.repository.user>
@@ -43,7 +43,7 @@
                         </goals>
                         <configuration>
                             <url>
-                                ${url.for.repository.files}/com/adobe/fmdita/dev/com.adobe.fmdita.openinoxygen/${openinoxygenbutton.version}/com.adobe.fmdita.openinoxygen-${openinoxygenbutton.version}.zip
+                                ${url.for.repository.files}/com/adobe/fmdita/com.adobe.fmdita-openinoxygen/${openinoxygenbutton.version}/com.adobe.fmdita-openinoxygen-${openinoxygenbutton.version}.zip
                             </url>
                             <unpack>false</unpack>
                             <outputDirectory>${target.path.for.install}</outputDirectory>
