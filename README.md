@@ -43,7 +43,7 @@ The main parts of the template are:
 - dox: xml documentation installer for AEMaacs.
     - dox.config.override : contains samples for upgrading xml documentation solution osgi properties
     - dox.installer: contains code to install xml documentation solution. Add the credentails shared in welcome email in this module's pom
-    - dox.openinoxygen.installer: contains code to install open-in-oxygen button. Add the credentails shared in welcome email in this module's pom
+    - dox.openinoxygen.installer: contains code to install open-in-oxygen button. Add the credentials shared in welcome email in this module's pom
 - it.tests: Java based integration tests
 - ui.apps: contains the /apps (and /etc) parts of the project, ie JS&amp;CSS clientlibs, components, and templates
 - ui.content: contains sample content using the components from the ui.apps
