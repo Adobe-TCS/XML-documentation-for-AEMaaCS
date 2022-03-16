@@ -42,7 +42,7 @@ The main parts of the template are:
 - core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
 - dox: xml documentation installer for AEMaacs.
     - dox.config.override : contains samples for upgrading xml documentation solution osgi properties
-    - dox.installer: contains code to install xml documentation solution. Add the credentails shared in welcome email in this module's pom
+    - dox.installer: contains code to install xml documentation solution. Add the credentials shared in welcome email in this module's pom
     - dox.openinoxygen.installer: contains code to install open-in-oxygen button. Add the credentials shared in welcome email in this module's pom
 - it.tests: Java based integration tests
 - ui.apps: contains the /apps (and /etc) parts of the project, ie JS&amp;CSS clientlibs, components, and templates
