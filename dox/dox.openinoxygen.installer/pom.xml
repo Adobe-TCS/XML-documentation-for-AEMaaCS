@@ -15,7 +15,7 @@
     <packaging>content-package</packaging>
     <name>XML Documentation for AEMaaCS - DoX Open In Oxygen Button Installer</name>
     <properties>
-        <url.for.repository.files>https://repo.xmldocumentation.com/repository/fmdita-releases</url.for.repository.files>
+        <url.for.repository.files>https://repo.aem-guides.com/repository/fmdita-releases</url.for.repository.files>
         <openinoxygenbutton.version>2.1</openinoxygenbutton.version>
         <target.path.for.install>${project.build.outputDirectory}/jcr_root/apps/editinoxygen/install</target.path.for.install>
         <aem.repository.user></aem.repository.user>

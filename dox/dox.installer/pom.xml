@@ -15,8 +15,8 @@
 	<name>XML Documentation for AEMaaCS - DoX Installer</name>
 
 	<properties>
-	  <url.for.repository.files>https://repo.xmldocumentation.com/repository/fmdita-releases</url.for.repository.files>
-      <dox.version>2022.11.198</dox.version>
+	  <url.for.repository.files>https://repo.aem-guides.com/repository/fmdita-releases</url.for.repository.files>
+      <dox.version>2023.10.0.373</dox.version>
       <target.path.for.install>${project.build.outputDirectory}/jcr_root/apps/dxmlAddOn/install</target.path.for.install>
 		<aem.repository.user></aem.repository.user>
 		<aem.repository.pwd></aem.repository.pwd>
