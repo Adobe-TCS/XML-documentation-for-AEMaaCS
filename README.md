@@ -1,3 +1,6 @@
+> [!NOTE]  
+> This process has now been deprecated. For the correct process to install AEM Guides on AEM Cloud Service please refer this [link](https://experienceleague.adobe.com/docs/experience-manager-guides/using/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html?lang=en#deployment-via-cloud-manager)
+
 # **Adobe Experience Manager Guides**
 
 ## Overview:
