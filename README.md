@@ -1,5 +1,5 @@
 > [!NOTE]  
-> This process has now been deprecated. For the correct process to install AEM Guides on AEM Cloud Service please refer this [link](https://experienceleague.adobe.com/docs/experience-manager-guides/using/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html?lang=en#deployment-via-cloud-manager)
+> Starting AEM Guides release 2024.2 release, this process has now been deprecated. For the correct process to install AEM Guides on AEM Cloud Service please refer this [link](https://experienceleague.adobe.com/docs/experience-manager-guides/using/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html?lang=en)
 
 # **Adobe Experience Manager Guides**
 
