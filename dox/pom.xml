@@ -22,11 +22,14 @@
     </properties>
 
     <modules>
-        <module>dox.installer</module>
-        <!--Uncomment the below line only if you want to override OSGI config for DoX-->
-<!--        <module>dox.config.override</module>-->
-        <!--Uncomment the below line only if you want to install the open-in-oxygen button for DoX -->
-<!--        <module>dox.openinoxygen.installer</module>-->
+        <!--This module should not be used starting AEM Guides release 2024.2.0-->
+        <!--<module>dox.installer</module>-->
+
+        <!--Uncomment the below line if you want to override OSGI config for DoX-->
+        <!--<module>dox.config.override</module>-->
+
+        <!--Uncomment the below line if you want to install the open-in-oxygen button for DoX-->
+        <!--<module>dox.openinoxygen.installer</module>-->
     </modules>
 
     <build>
